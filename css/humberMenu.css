@@ -92,7 +92,13 @@ h6
 font-family: 'Lato', sans-serif;
 	font-size: 16px;
 }
-header{
+h1{
+    font-weight: bolder;
+}
+.advisoryH3{
+    margin-left: 27%;
+}
+#header{
     background:url('../images/millennials-e1448265369827.jpg');
     height: 817px;
 }
@@ -500,6 +506,42 @@ position: relative;
     height: 540px;
    
 }
+#firstImge{
+    background: url(../images/first.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: -113px;
+    height: 214px;
+}
+#secondImge{
+    background: url(../images/second.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: -113px;
+    height: 214px;
+}
+#thirdImge{
+    background: url(../images/third.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: -113px;
+    height: 214px;
+}
+#forthImge{
+    background: url(../images/forth.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: -113px;
+    height: 214px;
+}
 .section3 h1{
     color: #00c9c6 !important;
 }
@@ -508,15 +550,18 @@ position: relative;
     font-size: 16px !important;
 }
 .bannertext{
-    background: rgba(40, 191, 228, 0.78);
+    background: rgb(250, 250, 250);
     text-align: center;
     height: 100%;
+    width: 57%;
     padding: 26px;
     position: relative;
-    top: 125px;
+    top: 240px;
     font-size: 22px;
     color: black;
     border-radius: 10px;
+    z-index: 999999999;
+    margin-left: 19%;
 }
 .bannertextMobile{
     display: none
